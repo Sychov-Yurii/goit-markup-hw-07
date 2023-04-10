@@ -61,7 +61,4 @@
     .strategy-list {
         flex-wrap: nowrap;
     }
-    .strategy-position::before {
-        width: calc((100% - 3 * 4px) / 4);
-    }
 }
