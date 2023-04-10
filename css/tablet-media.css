@@ -31,4 +31,30 @@
     .strategy-list {
     
     }
+    .order-title {
+        padding-top: 112px;
+        padding-left: 54px;
+        padding-right: 54px;
+        padding-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.17;
+        color: #ffffff;
+    } 
+    .order-service {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/hero-bg-tab.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-service {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), 
+    url(../images/hero-bg-tab-2x.jpg);
+  }
 }
