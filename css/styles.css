@@ -84,7 +84,7 @@ img {
     display: flex;
 }
 
-/*header*/
+/* ============================ header ============================ */
 
 .header {
     border-bottom: 1px solid var(--CORNFLOWER);
@@ -225,7 +225,7 @@ img {
     opacity: 1;
 } 
 
-/*1 Section*/
+/* ============================ 1 Section ============================ */
 
 .order-service {
     background-color:var(--NAVY-BLUE);
@@ -258,7 +258,7 @@ img {
     margin-right: auto;
     margin-bottom: 48px;
 }
-/*buttons*/
+/* ============================ buttons ============================ */
 
 .header-btn {
     font-family: "Roboto", sans-serif;
@@ -320,7 +320,7 @@ img {
     opacity: 1;
 }
 
-/*2 Section*/
+/* ============================ 2 Section ============================ */
 
 .section-position {
     margin-top: 120px;
@@ -380,7 +380,7 @@ img {
     height: 64px;
 }
 
-/*3 Section*/
+/* ============================ 3 Section ============================ */
 
 .section-about-position
 {
@@ -400,7 +400,7 @@ margin-bottom: 120px;
     display: flex;
     gap: 24px;
 }
-/*4 Section*/
+/* ============================ 4 Section ============================ */
 
 .hero-container-title 
 {
@@ -458,7 +458,7 @@ margin-bottom: 120px;
     padding-bottom: 32px;
 }
 
-/* SOCIAL */
+/* ============================ SOCIAL ============================ */
 
 .team-soc-list {
     display: flex;
@@ -498,7 +498,7 @@ margin-bottom: 120px;
 }
 
 
-/* Portfolio */
+/* ============================ Portfolio ============================ */
 
 .container-portfolio {
     width: 1158px;
@@ -518,9 +518,6 @@ margin-bottom: 120px;
     border: transparent;
     text-transform: none;
 
-}
-
-.portfoio-buttons-head { 
 }
 
 .portfolio-about {
@@ -561,11 +558,7 @@ margin-bottom: 120px;
     border-top: none;
 }
 
-.portfolio-card {
-  
-}
-
-/*****************5 homework****************************/
+/* ============================ 5 homework ============================ */
 
 .portfolio-list-img-wrapper {
     position: relative;
@@ -603,7 +596,7 @@ margin-bottom: 120px;
     transform: translate(0, 0);
 }
 
-/*customers*/
+/* ============================ Customers ============================ */
 
 .customers {
     font-style: normal;
@@ -665,8 +658,8 @@ margin-bottom: 120px;
     fill: var(--OCEAN);
 } 
 
+/* ============================ footer ============================ */
 
-/*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
     padding-top: 100px;
@@ -696,7 +689,7 @@ margin-bottom: 120px;
     margin-top: 16px;
 }
 
-/*footer-soc*/
+/* ============================ footer-soc ============================ */
 
 .footer-soc {
     margin-left: 120px;
@@ -747,13 +740,13 @@ margin-bottom: 120px;
     opacity: 1;
 }
 
-/* =====================footer subcribe ============================== */
+/* ============================ footer subcribe ============================ */
+
 .footer-soc-subcribe {
     margin-left: 80px;
 }
 
-.footer-soc-title
-{
+.footer-soc-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -782,7 +775,6 @@ margin-bottom: 120px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .subscribe-btn {
     width: 165px;
     padding: 8px 24px;
@@ -810,7 +802,7 @@ margin-bottom: 120px;
     display: flex;
 }
 
-/* =====================MODAL WINDOW ============================== */
+/* ============================ MODAL WINDOW ============================ */
 
 .backdrop {
     position: fixed;
@@ -871,7 +863,8 @@ margin-bottom: 120px;
     opacity: 1;
 }
 
-/*======== 6 homework ====================*/
+/* ============================ 6 homework ============================ */
+
 .modal-title {
     font-size: 16px;
     font-style: normal;
@@ -903,6 +896,7 @@ margin-bottom: 120px;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
+    outline: none;
 }
 
 .modal-input-icon {
@@ -942,6 +936,7 @@ margin-bottom: 120px;
 .modal-form {
     border-radius: 4px;
 }
+
 .modal-label-text {
     display: inline-block;
     margin-bottom: 4px;
@@ -971,10 +966,6 @@ margin-bottom: 120px;
     
 }
 
-.modal-close-btn-icon {
-    
-}
-
 .modal-check {
     width: 16px;
     height: 16px;
@@ -990,7 +981,6 @@ margin-bottom: 120px;
     letter-spacing: 0.04em;
     color: #757575;
 }
-
 .check-text::before {
     content: "";
     width: 16px;
@@ -1011,7 +1001,6 @@ margin-bottom: 120px;
     margin-top: 24px;
     margin-bottom: ;
 }
-
 .submit-btn{
     color: var(--WHITE);
     background-color: #4D5AE5;
