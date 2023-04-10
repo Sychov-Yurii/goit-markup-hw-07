@@ -1,0 +1,15 @@
+@media screen and (min-width: 480px) {
+    .container {
+        width: 448px;
+    }
+    .container-portfolio {
+        width: 448px;
+    }
+    .strategy-wrap {
+        display: none;
+    }
+    .strategy-icons {
+        display: none;
+    }
+
+}

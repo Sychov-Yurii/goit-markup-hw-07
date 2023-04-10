@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+ 
+    .container {
+        width: 720px;
+    }
+    
+    .container-portfolio {
+        width: 720px;
+    }
+
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;    
+    }
+
+    .portfolio-about > .portfolio-title {
+        width: calc((100%- 24px) / 2);
+    }
+    .portfolio-about > .portfolio-title {
+        width: 480px;
+    }
+    .strategy-wrap {
+        display: none;
+    }
+    .strategy-icons {
+        display: none;
+    }
+    .strategy-position {
+        width: calc((100% - 24px) / 3);
+    }
+    .strategy-list {
+    
+    }
+}

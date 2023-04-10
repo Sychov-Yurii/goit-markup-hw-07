@@ -49,7 +49,7 @@ body {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -77,11 +77,16 @@ img {
 
 
 .container {
-    width: 1158px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     display: flex;
+}
+
+.section {
+    padding-top: 84px;
+    padding-bottom: 84px;
 }
 
 /* ============================ header ============================ */
@@ -323,8 +328,7 @@ img {
 /* ============================ 2 Section ============================ */
 
 .section-position {
-    margin-top: 120px;
-    margin-top: 120px;
+    width: 100%;
 }
 
 .strategy-position::before {
@@ -333,11 +337,15 @@ img {
 
 .strategy-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
     padding: 0;
     margin: 0;
+    margin-top: 96px;
+    margin-bottom: 96px;
 }
 .strategy-title {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -363,49 +371,22 @@ img {
 }
 
 .strategy-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-    height: 112px;
-    background: var(--CLOUD);
-    border-radius: 4px;
-    margin-bottom: 8px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: none;
 }
 
 .strategy-icons {
-    width: 64px;
-    height: 64px;
+    display: none;
 }
 
 /* ============================ 3 Section ============================ */
 
 .section-about-position
 {
-margin-top: 120px;
-margin-bottom: 120px;
+    display: none;
 }
 
-.about-info {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color:var(--NAVY-BLUE);
-    margin-bottom: 72px;
-}
-.about-title {
-    display: flex;
-    gap: 24px;
-}
 /* ============================ 4 Section ============================ */
 
-.hero-container-title 
-{
-
-}
 .hero {
     font-size: 36px;
     line-height: 1.11;
@@ -446,6 +427,7 @@ margin-bottom: 120px;
     
 }
 .hero-border {
+
     text-align: center;
     gap: 32px;
     background-color: #FFFFFF;
@@ -501,7 +483,7 @@ margin-bottom: 120px;
 /* ============================ Portfolio ============================ */
 
 .container-portfolio {
-    width: 1158px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -525,12 +507,13 @@ margin-bottom: 120px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    margin-bottom: 120px;
+    margin-bottom: 48px;
 }
 
 .portfolio-about > .portfolio-title {
-    flex-basis: calc(100%/3-(24px));
+    width: 100%;
     text-align: left;
+    gap: 48px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -645,7 +628,6 @@ margin-bottom: 120px;
     border-color:var(--OCEAN);  
     opacity: 1;
 } 
-
 
 .customers-list:hover .customers-icon
 {

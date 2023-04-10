@@ -1,0 +1,67 @@
+@media screen and (min-width: 1200px) {
+    
+    .container {
+        width: 1158px;
+    } 
+
+    .container-portfolio {
+        width: 1158px;
+    }
+    .portfolio-title {
+        flex-basis: calc(100%/3-(24px));
+        gap: 48px;
+    }
+    .portfolio-about {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
+        margin-bottom: 48px;
+    }
+    .section {
+        padding-top: 64px;
+        padding-bottom: 96px;    
+    }   
+    .section-about-position {
+        display: flex;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    
+    .about-info {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color:var(--NAVY-BLUE);
+        margin-bottom: 72px;
+    }
+    .about-title {
+        display: flex;
+        gap: 24px;
+    }
+    .strategy-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 264px;
+        height: 112px;
+        background: var(--CLOUD);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .strategy-icons
+    {
+        display: flex;
+        width: 64px;
+        height: 64px;
+    }
+    .strategy-list {
+        flex-wrap: nowrap;
+    }
+    .strategy-position::before {
+        width: calc((100% - 3 * 4px) / 4);
+    }
+}
