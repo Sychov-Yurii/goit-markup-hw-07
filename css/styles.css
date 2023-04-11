@@ -374,21 +374,25 @@ img {
     margin-top: 96px;
     margin-bottom: 96px;
 }
+
 .strategy-title {
-    text-align: center;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color:var(--NAVY-BLUE);
     margin-bottom: 8px;
 }
 .strategy-subtitle {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--SLATE);  
-    font-weight: 400;    
+    color:var(--SLATE);
+    height: 48px;
+    margin-bottom: 72px;
 }
 
 .strategy-border {
@@ -621,11 +625,16 @@ img {
 }
 
 .customers-content {
+    row-gap: 72px;
+    column-gap: 16px;
     padding-bottom: 120px;
-    column-gap: 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .customers-list {
-    width: 190px;
+    width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;   

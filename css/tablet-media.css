@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
  
     .container {
-        width: 768px;
+        width: 766px;
     }
      
     .address-list {
@@ -178,6 +178,23 @@
     .strategy-list {
         gap: 24px;
     }
+
+    .strategy-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color:var(--NAVY-BLUE);
+    }
+    .strategy-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--SLATE);
+    }
+
     .order-title {
         padding-top: 112px;
         padding-left: 54px;
@@ -205,18 +222,21 @@
     url(../images/hero-bg-tab-2x.jpg);
     }}
 
-    .customers-section {
-    width: 582px;
+    .customers-section .container {
+        width: 582px;
     }
     .customers-content {
-    row-gap: 72px;
-    column-gap: 24px;
-    display: flex;
-    align-items: center;
+        row-gap: 72px;
+        column-gap: 24px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .customers-list {
-    width: 168px;
-
+        width: 168px;
+        height: 88px;
+        gap: 24px;
     }
 
 }

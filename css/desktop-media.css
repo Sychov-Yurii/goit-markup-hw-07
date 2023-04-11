@@ -176,6 +176,22 @@
         display: flex;
         gap: 24px;
     }
+    .strategy-title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:var(--NAVY-BLUE);
+        margin-bottom: 8px;
+    }
+    .strategy-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--SLATE);  
+        font-weight: 400;    
+    }
     .strategy-wrap {
         display: flex;
         justify-content: center;
@@ -255,7 +271,7 @@
         column-gap: 24px;
     }
     .customers-list {
-        width: 190px;
+        width: 168px;
         height: 88px;
         border: 1px solid #8E8F99;
         border-radius: 4px;   
