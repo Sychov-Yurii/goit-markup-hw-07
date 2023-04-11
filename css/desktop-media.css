@@ -4,9 +4,145 @@
         width: 1158px;
     } 
 
-    .container-portfolio {
-        width: 1158px;
+    .header {
+        border-bottom: 1px solid var(--CORNFLOWER);
+        height: 76px;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+    .header-logo-web{
+        font-family: 'Raleway', sans-serif;;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--IRIS);
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: flex;
+        margin-right: 76px;
     }
+
+    .header-logo-studio {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--NAVY-BLUE);
+    }
+    .header-list {
+        display: flex;
+        gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .address {
+        font-style: normal;
+    }
+
+    .address-list {
+        display: flex;
+        gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-left: 332px;
+    }
+
+    .header-nav {
+        display: flex;
+    }
+
+    .header-item {
+        display: flex;
+        position: relative;
+    }
+
+    .header-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--NAVY-BLUE);
+        display: block;
+        position: relative;
+        opacity: 1;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-link:hover {
+        color:#404bbf;
+        display: block;
+        width: 100%;
+        opacity: 1;
+    }
+    .header-link:focus {
+        color:#404bbf;
+        display: block;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .header-mail {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--SLATE);
+        display: flex;
+        opacity: 1;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-mail:hover {
+        color:#404bbf;
+        display: ;
+        width: 100%;
+        opacity: 1;
+    }
+    .header-mail:focus {
+        color:#404bbf;
+        display: ;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .header-link::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background-color: var(--OCEAN);
+        border-radius: 2px;
+        transition: ;
+        margin-top: 20px;
+        top: 34px;
+        transform: translateY(-125%);
+        display: none;
+        opacity: 0;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-link:hover::after {
+        display: block;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .header-link:focus::after {
+        display: block;
+        width: 100%;
+        opacity: 1;
+    } 
+
     .portfolio-title {
         flex-basis: calc(100%/3-(24px));
         gap: 48px;
@@ -101,5 +237,62 @@
     ), 
     url(../images/people-office-1-2x.jpg);
 
-  }
+    }}
+    .customers {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42; 
+        margin-bottom: 72px;
+    }
+
+    .customers-content {
+        padding-bottom: 120px;
+        column-gap: 24px;
+    }
+    .customers-list {
+        width: 190px;
+        height: 88px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;   
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .customers-icon {
+        fill: #8E8F99;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .customers-list:hover 
+    {
+        border-color:var(--OCEAN);  
+        opacity: 1;
+    } 
+    .customers-list:focus 
+    {
+        border-color:var(--OCEAN);  
+        opacity: 1;
+    } 
+
+    .customers-list:hover .customers-icon
+    {
+        opacity: 1;
+        fill: var(--OCEAN);
+    } 
+    .customers-list:focus .customers-icon
+    {
+        opacity: 1;
+        fill: var(--OCEAN);
+    }
+
 }
