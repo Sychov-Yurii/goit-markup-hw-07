@@ -198,6 +198,9 @@
     .customers-section .container {
         width: 582px;
     }
+    .customers {
+        padding-top: 96px;
+    }
     .customers-content {
         row-gap: 72px;
         column-gap: 24px;
@@ -271,6 +274,12 @@
     url(../images/hero-bg-tab-2x.jpg);
     }}
 
-
+    .hero-border {
+        max-width: 264px;
+        width: calc((100% - 24px) / 2);
+    }
+    .hero-list {
+        
+    }
 
 }

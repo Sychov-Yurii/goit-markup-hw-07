@@ -403,55 +403,28 @@ img {
 /* ============================ 4 Section ============================ */
 
 .hero {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 2.22;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:var(--NAVY-BLUE);
-    padding-top: 120px;
+    color: #2E2F42;
+    padding-top: 96px;
     padding-bottom: 72px;
 }
 .hero-container {
     background-color:var(--CLOUD);
-    margin-top: ;
-    text-align: ;
     text-align: center;
 }
-.hero-list {
-    display: flex;
-    text-align: center;
-    padding-bottom: 120px;
-    margin-top: ;
-    gap: 32px;
-}
-.hero-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--NAVY-BLUE);
-    margin-bottom: 8px;
-}
-.hero-subtitle {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--SLATE);  
-    font-weight: 400;
-    
-}
+
+
 .hero-border {
     text-align: center;
-    gap: 32px;
+    gap: 72px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-
-.hero-content {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 /* ============================ SOCIAL ============================ */
@@ -594,6 +567,7 @@ img {
 /* ============================ Customers ============================ */
 
 .customers {
+    padding-top: 96px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;

@@ -39,9 +39,6 @@
         text-transform: uppercase;
         color:var(--NAVY-BLUE);
     }
-    .customers-list {
-      
-    }
     .strategy-wrap {
         display: none;
     }
@@ -49,3 +46,40 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 300px), (max-width: 767px) {
+
+    .hero-border {
+        max-width: 262px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-list {
+        row-gap: 72px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 96px;
+    }
+    .hero-title {
+        padding-top: 32px;
+        padding-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .hero-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding-bottom: 8px;
+    }
+    .team-soc-list {
+        padding-bottom: 32px;
+    }
+} 
