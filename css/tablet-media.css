@@ -214,7 +214,10 @@
         height: 88px;
         gap: 24px;
     }
-
+    .hero-list {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
 }
 
 @media screen and (min-width: 768px), (max-width: 1199) {
@@ -276,8 +279,11 @@
 
     .hero-border {
         flex-basis: calc((100% - 24px) / 2);
+        
+        
     }
     .hero-list {
+        column-gap: 24px;
         
     }
 
