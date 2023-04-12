@@ -55,6 +55,7 @@
 
     .header-nav {
         display: flex;
+        margin-right: auto;
     }
 
     .header-item {
