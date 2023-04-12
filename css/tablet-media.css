@@ -197,14 +197,21 @@
 
     .order-title {
         padding-top: 112px;
-        padding-left: 54px;
-        padding-right: 54px;
-        padding-bottom: 72px;
-        font-size: 36px;
-        line-height: 1.17;
-        color: #ffffff;
+        padding-left: 136px;
+        padding-right: 136px;
+        padding-bottom: 204px;
+
+      
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+
     } 
     .order-service {
+        max-width: 768px;
+        height: 436px;
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)

@@ -235,7 +235,7 @@ img {
 
 /* ============================ 1 Section ============================ */
 
-.order-title {
+/* .order-title {
     padding-top: 112px;
     padding-left: 54px;
     padding-right: 54px;
@@ -243,7 +243,7 @@ img {
     font-size: 36px;
     line-height: 1.17;
     color: #ffffff;
-} 
+}  */
 .order-service {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -263,7 +263,7 @@ img {
     url(../images/hero-bg-mob-2x.jpg);
   }
 }
-.order-service {
+/* .order-service {
     background-color:var(--NAVY-BLUE);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -279,9 +279,9 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.order-title {
+/* .order-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -292,10 +292,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-}
+} */
+
 /* ============================ buttons ============================ */
 
-.header-btn {
+/* .header-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -319,7 +320,7 @@ img {
 .header-btn:focus {
     background-color: var(--OCEAN);
     opacity: 1;
-}
+} */
 
 .portfolio-btn {
     font-family: "Roboto", sans-serif;
