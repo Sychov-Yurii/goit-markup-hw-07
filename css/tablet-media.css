@@ -195,40 +195,6 @@
         color:var(--SLATE);
     }
 
-    .order-title {
-        padding-top: 112px;
-        padding-left: 136px;
-        padding-right: 136px;
-        padding-bottom: 204px;
-
-      
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-
-    } 
-    .order-service {
-        max-width: 768px;
-        height: 436px;
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-        ), 
-        url(../images/hero-bg-tab.jpg);
-    }
-    @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .order-service {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-    ), 
-    url(../images/hero-bg-tab-2x.jpg);
-    }}
-
     .customers-section .container {
         width: 582px;
     }
@@ -245,5 +211,62 @@
         height: 88px;
         gap: 24px;
     }
+
+}
+
+@media screen and (min-width: 768px), (max-width: 1199) {
+
+    .order-service {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 112px;
+        max-width: 768px;
+        height: 436px;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/hero-bg-tab.jpg);
+    }
+
+    .order-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        width: 496px;
+        height: 120px;
+    } 
+    .header-btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 4px;
+        background-color:var(--IRIS);
+        text-align: center;
+        width: 169px;
+        height: 56px;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-service {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), 
+    url(../images/hero-bg-tab-2x.jpg);
+    }}
+
+
 
 }

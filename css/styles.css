@@ -244,7 +244,8 @@ img {
     line-height: 1.17;
     color: #ffffff;
 }  */
-.order-service {
+
+/* .order-service {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -262,7 +263,7 @@ img {
     ), 
     url(../images/hero-bg-mob-2x.jpg);
   }
-}
+} */
 /* .order-service {
     background-color:var(--NAVY-BLUE);
     background-image: linear-gradient(

@@ -225,11 +225,11 @@
         background-position: center;
         background-size: cover;
         text-align: center;
-        padding-top: 188px;
-        padding-bottom: 188px;
         max-width: 1440px;
+        height: 600px;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 188px;
     }
     .order-title {
         font-size: 56px;
@@ -239,13 +239,11 @@
         color: #ffffff;
         margin-top: 0;
         width: 496px;
+        height: 120px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
-        padding-top: 188px;
-        padding-bottom: 292px;
-        padding-left: 472px;
-        padding-right: 472px;
+        text-align: center;
     }
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
