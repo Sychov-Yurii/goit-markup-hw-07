@@ -374,7 +374,6 @@ img {
     letter-spacing: 0.02em;
     color:var(--SLATE);
     height: 48px;
-    margin-bottom: 72px;
 }
 
 .strategy-border {
@@ -616,8 +615,9 @@ img {
     justify-content: center;
 }
 .customers-list {
-    width: 168px;
+    width: 190px;
     height: 88px;
+    text-align: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;   
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -634,7 +634,6 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .customers-list:hover 
 {
     border-color:var(--OCEAN);  
@@ -645,7 +644,6 @@ img {
     border-color:var(--OCEAN);  
     opacity: 1;
 } 
-
 .customers-list:hover .customers-icon
 {
     opacity: 1;
