@@ -644,7 +644,7 @@ img {
 
 /* ============================ footer ============================ */
 
-/* .footer {
+.footer {
     background-color:var(--NAVY-BLUE);
     padding-top: 100px;
     padding-bottom: 100px;
@@ -720,11 +720,11 @@ img {
 .footer-team-soc-link:focus {
     background-color: var(--GREEN);
     opacity: 1;
-} */
+}
 
 /* ============================ footer subcribe ============================ */
 
-/* .footer-soc-subcribe {
+.footer-soc-subcribe {
     margin-left: 80px;
 }
 .footer-soc-title {
@@ -775,7 +775,9 @@ img {
 }
 .subscribe-input-wrap {
     display: flex;
-} */
+}
+
+
 
 /* ============================ MODAL WINDOW ============================ */
 

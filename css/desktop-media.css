@@ -405,7 +405,12 @@
     }
     
     .footer-position {
-        width: 264px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer-logo-position {
+        margin-right: 120px;
     }
     
     .footer-logo-web {
@@ -417,6 +422,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--IRIS);
+        margin-right: 120px;
     }
     
     .footer-logo-studio {
@@ -425,10 +431,11 @@
     .footer-logo-text {
         color: var(--CORNFLOWER);
         margin-top: 16px;
+        max-width: 268px;
     }
     
     .footer-soc {
-        margin-left: 120px;
+        margin-right: 80px;
     }
     
     .footer-soc-title
@@ -439,6 +446,7 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #FFFFFF;
+        margin-bottom: 16px;
     }
     
     .footer-soc-list {
