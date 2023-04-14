@@ -431,7 +431,11 @@
     .footer-logo-text {
         color: var(--CORNFLOWER);
         margin-top: 16px;
-        max-width: 268px;
+        font-weight: 400;
+        font-size: 1.5;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
     }
     
     .footer-soc {
@@ -537,6 +541,14 @@
         display: flex;
     }
     
+    .footer-position {
+        display: flex;
+    }
+    .footer-soc-subcribe {
+        padding-left: 0;
 
-
+    }
+    .footer-soc-tablet {
+        padding-right: 0;
+    }
 }

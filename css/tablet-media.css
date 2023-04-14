@@ -290,27 +290,58 @@
         column-gap: 24px;
         
     }
+
+    .footer-position-tablet {
+        display: flex;
+        gap: 24px;
+        padding-bottom: 72px;
+    }
+
     .footer-logo-web {
         padding-left: 92px;
-        padding-bottom: 16px;
+        display: flex;
     }
     .footer-logo-text {
         padding-left: 92px;
-        padding-right: 0;
-        width: 362px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
+        padding-right: 0;
+        padding-bottom: 0;
+        
+
     }
     .footer-soc-title {
+        display: flex;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--WHITE);
-        
+        text-align: inherit;
+        position: relative;
     }
-
+    .footer-soc-tablet {
+        margin-left: 24x;
+        padding-right: 148px;
+        justify-content: flex-start;
+    }
+    .footer-soc-subcribe {
+        padding-left: 92px;
+    }
+    .subcribe-input {
+        width: 264px;
+        height: 40px;
+        position: relative;
+    }
+    .subcribe-container-container {
+        display: flex;
+    }
+    .subscribe-btn {
+        margin-left: 24px;
+        margin-right: 0;
+        margin-top: 0;
+    }
 }
