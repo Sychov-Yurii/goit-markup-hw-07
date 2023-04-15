@@ -310,6 +310,7 @@
         color: #E7E9FC;
         padding-right: 0;
         padding-bottom: 0;
+        max-width: max-content;
     }
     .footer-soc-title {
         display: flex;

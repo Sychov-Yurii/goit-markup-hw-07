@@ -614,10 +614,7 @@ img {
     fill: #8E8F99;
     align-items: center;
     justify-content: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 32px;
-    margin-right: 32px;
+    display: flex;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -674,7 +671,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    padding-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 268px;
     padding-bottom: 72px;
 }
 

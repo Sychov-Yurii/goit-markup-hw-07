@@ -451,6 +451,7 @@
         letter-spacing: 0.02em;
         color: #E7E9FC;
         padding-left: 36px;
+        width: 300px;
     }
     
     .footer-soc {
@@ -527,7 +528,6 @@
         border-radius: 4px;
         background-color: transparent;
         width: 264px;
-        margin-right: 24px;
         color: var(--WHITE);
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
