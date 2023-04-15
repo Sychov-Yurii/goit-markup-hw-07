@@ -353,13 +353,11 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--NAVY-BLUE);
-        padding-top: 120px;
-        padding-bottom: 72px;
+    
     }
     .hero-container {
         background-color:var(--CLOUD);
-        margin-top: ;
-        text-align: ;
+        padding-top: 120px;
         text-align: center;
     }
     .hero-list {

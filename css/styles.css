@@ -130,14 +130,10 @@ img {
 .menu-open-btn {
     border: none;
     background-color: transparent;
-    width: 32px;
-    height: 22px;
     display: block;
     margin-left: auto;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-right: 16px;
-
 }
 .menu-open-icon {
     width: 32px;
@@ -299,7 +295,7 @@ img {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    border-radius: 4px;
+    border: none;
     background-color:var(--IRIS);
     text-align: center;
     width: 169px;
@@ -386,7 +382,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--SLATE);
-    height: 48px;
 }
 
 .strategy-border {
@@ -423,12 +418,11 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .hero-container {
     background-color:var(--CLOUD);
-    text-align: center;
+    padding-top: 96px;
 }
 
 
