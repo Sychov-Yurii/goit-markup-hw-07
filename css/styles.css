@@ -674,8 +674,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 80px;
     padding-bottom: 72px;
 }
 
@@ -734,6 +733,7 @@ img {
 
 .footer-soc-subcribe {
     margin-bottom: 16px;
+
 }
 .footer-soc-title {
     font-weight: 500;
@@ -747,7 +747,8 @@ img {
     
 }
 .subcribe-container-container {
-    
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .subcribe-input {
     padding: 8px 16px 8px 16px;

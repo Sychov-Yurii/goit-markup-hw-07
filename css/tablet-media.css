@@ -298,11 +298,11 @@
     }
 
     .footer-logo-web {
-        padding-left: 92px;
+        padding-left: 108px;
         display: flex;
     }
     .footer-logo-text {
-        padding-left: 92px;
+        padding-left: 108px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -310,8 +310,6 @@
         color: #E7E9FC;
         padding-right: 0;
         padding-bottom: 0;
-        
-
     }
     .footer-soc-title {
         display: flex;
@@ -325,11 +323,11 @@
     }
     .footer-soc-tablet {
         margin-left: 24x;
-        padding-right: 148px;
+        padding-right: 164px;
         justify-content: flex-start;
     }
     .footer-soc-subcribe {
-        padding-left: 92px;
+        padding-left: 108px;
     }
     .subcribe-input {
         width: 264px;
@@ -338,6 +336,7 @@
     }
     .subcribe-container-container {
         display: flex;
+        padding-left: 0;
     }
     .subscribe-btn {
         margin-left: 24px;

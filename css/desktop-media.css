@@ -407,12 +407,25 @@
     .footer-position {
         padding-left: 0px;
         padding-right: 0px;
+        display: flex;
     }
+
+    .footer-position-tablet {
+        padding-bottom: 0;
+        gap: 0;
+    }
+
 
     .footer-logo-position {
         margin-right: 120px;
     }
     
+    .footer-soc-tablet {
+        padding-right: 0;
+        padding-left: 120px;
+    } 
+
+
     .footer-logo-web {
         font-family: 'Raleway', sans-serif;;
         font-style: normal;
@@ -423,6 +436,7 @@
         text-transform: uppercase;
         color: var(--IRIS);
         margin-right: 120px;
+        padding-left: 36px;
     }
     
     .footer-logo-studio {
@@ -436,6 +450,7 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #E7E9FC;
+        padding-left: 36px;
     }
     
     .footer-soc {
@@ -490,6 +505,7 @@
 
     .footer-soc-subcribe {
         margin-left: 80px;
+        padding-left: 0;
     }
     .footer-soc-title {
         font-weight: 500;
@@ -541,14 +557,6 @@
         display: flex;
     }
     
-    .footer-position {
-        display: flex;
-    }
-    .footer-soc-subcribe {
-        padding-left: 0;
-
-    }
-    .footer-soc-tablet {
-        padding-right: 0;
-    }
+  
 }
+/* footer откоректируй свойства */
