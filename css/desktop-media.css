@@ -75,6 +75,8 @@
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+  
+
     .header-link:hover {
         color:#404bbf;
         display: block;
@@ -189,6 +191,10 @@
         color:var(--NAVY-BLUE);
         margin-bottom: 8px;
     }
+    .section-position {
+        padding-top: 120px;
+        padding-bottom: 0;
+    }
     .strategy-subtitle {
         font-size: 16px;
         line-height: 1.5;
@@ -216,6 +222,7 @@
     }
     .strategy-list {
         flex-wrap: nowrap;
+        margin-top: 0;
     }
 
     .order-service {
@@ -357,7 +364,6 @@
     }
     .hero-container {
         background-color:var(--CLOUD);
-        padding-top: 120px;
         text-align: center;
     }
     .hero-list {
