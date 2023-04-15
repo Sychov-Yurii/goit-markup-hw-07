@@ -298,7 +298,9 @@
         color: #2E2F42; 
         margin-bottom: 72px;
     }
-
+    .customers-tittle {
+        padding: 0 0 0 0;
+    }
     .customers-content {
         padding-bottom: 120px;
         column-gap: 24px;

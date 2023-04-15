@@ -592,6 +592,15 @@ img {
     margin-bottom: 72px;
 }
 
+.customers-tittle {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .customers-content {
     row-gap: 72px;
     column-gap: 16px;
@@ -600,10 +609,11 @@ img {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .customers-list {
-    width: 190px;
-    height: 88px;
+    
     text-align: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;   
