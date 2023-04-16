@@ -197,7 +197,6 @@
         gap: 24px;
     }
     .strategy-title {
-        text-align: center;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -423,12 +422,14 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    .footer-content {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
     
     .footer-position {
-        padding-left: 0px;
-        padding-right: 0px;
-        display: flex;
-        justify-content: center;
+        
     }
 
     .footer-position-tablet {
@@ -456,8 +457,6 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--IRIS);
-        margin-right: 120px;
-        padding-left: 36px;
     }
     
     .footer-logo-studio {
@@ -471,8 +470,7 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #E7E9FC;
-        padding-left: 36px;
-        width: 300px;
+        padding-bottom: 0;
     }
     
     .footer-soc {
@@ -528,6 +526,7 @@
     .footer-soc-subcribe {
         margin-left: 80px;
         padding-left: 0;
+        margin-bottom: 0;
     }
     .footer-soc-title {
         font-weight: 500;
@@ -576,8 +575,5 @@
     }
     .subscribe-input-wrap {
         display: flex;
-    }
-    
-  
+    }  
 }
-/* footer откоректируй свойства */

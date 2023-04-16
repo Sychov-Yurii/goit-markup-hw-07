@@ -158,10 +158,6 @@
         padding-top: 96px;
         padding-bottom: 96px;    
     }
-    .section-position {
-        padding-top: 96px;
-        padding-bottom: 96px;  
-    }
     
     .portfolio-about > .portfolio-title {
         width: calc((100%- 24px) / 2);
@@ -184,6 +180,7 @@
     }
 
     .strategy-title {
+        text-align: left;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -223,6 +220,21 @@
         padding-left: 90px;
         padding-right: 90px;
     }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .footer-position-tablet {
+        width: 582px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: flex-start;
+    }
+
 }
 
 @media screen and (min-width: 768px), (max-width: 1199) {
@@ -284,34 +296,26 @@
 
     .hero-border {
         flex-basis: calc((100% - 24px) / 2);
-        
-        
     }
     .hero-list {
         column-gap: 24px;
-        
     }
 
-    .footer-position-tablet {
-        display: flex;
-        gap: 24px;
-        padding-bottom: 72px;
+    .footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .footer-logo-web {
-        padding-left: 108px;
         display: flex;
     }
     .footer-logo-text {
-        padding-left: 108px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
-        padding-right: 0;
-        padding-bottom: 0;
-        max-width: max-content;
+        max-width: 264px;
     }
     .footer-soc-title {
         display: flex;
@@ -325,11 +329,10 @@
     }
     .footer-soc-tablet {
         margin-left: 24x;
-        padding-right: 164px;
         justify-content: flex-start;
     }
     .footer-soc-subcribe {
-        padding-left: 108px;
+        
     }
     .subcribe-input {
         width: 264px;
