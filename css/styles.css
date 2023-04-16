@@ -127,7 +127,6 @@ img {
     color:var(--NAVY-BLUE);
 }
 
-
 .menu-open-btn {
     border: none;
     background-color: transparent;
@@ -216,8 +215,7 @@ img {
 }
 .mob-soc-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: space-between;
     margin-top: 8px;
     margin-right: 40px;
     margin-bottom: 40px;
